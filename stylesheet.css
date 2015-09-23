@@ -14,7 +14,7 @@ a {
   margin: 0 auto;
 }
 
-/* nav bar */
+/* NAV BAR */
 .nav-bar {
   width: 100%;
   background: #222;
@@ -39,4 +39,8 @@ a {
   display: block;
   padding: 20px 10px;
   color: #f9f9f9;
+}
+.nav-menu {
+  color: #f9f9f9;
+  display: none;
 }

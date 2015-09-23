@@ -1,0 +1,27 @@
+/* IE 10 + Viewport Fix */
+@ms-viewport { width: device-width; }
+@viewport { width: device-width; }
+
+/* PHONE - 767px */
+@media screen and (max-width: 767px) {
+  .nav-menu {
+    float: right;
+    color: #f9f9f9;
+    display: block;
+    padding: 20px 10px;
+    cursor: pointer;
+  }
+  .nav-list {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    height: 0;
+  }
+  .nav-open {
+    height: auto;
+  }
+  .nav-list li {
+    width: 100%;
+  }
+
+}

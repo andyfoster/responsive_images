@@ -8,7 +8,7 @@ a {
 
 /* WIDTH SETTING */
 
-.nav-container {
+.nav-container, .container, .image-grid {
   width: 95%;
   max-width: 1000px;
   margin: 0 auto;
@@ -17,7 +17,9 @@ a {
 /* NAV BAR */
 .nav-bar {
   width: 100%;
-  background: #222;
+  /*background: #222;*/
+  /*background: #667;*/
+  background-image: url("iceland.jpg");
 }
 .nav-container {
   overflow: hidden;
@@ -43,4 +45,45 @@ a {
 .nav-menu {
   color: #f9f9f9;
   display: none;
+}
+
+/* CONTAINER */
+
+.container {
+  padding: 50px 10px 10px 10px;
+}
+.container h1, .container h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.container h2 {
+  margin-top: 35px;
+}
+
+.container p {
+  line-height: 1.35em;
+  .columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  -o-columns: 2;
+  -ms-columns 2;
+}
+
+/* IMAGE GRID */
+
+.image-grid {
+  overflow: hidden;
+  padding: 5px;
+}
+
+.image-grid-square {
+  width: 20%;
+  float: left;
+  padding: 5px;
+  overflow: hidden;
+}
+.image-grid-square img {
+  width: 100%;
+  float: left;
 }

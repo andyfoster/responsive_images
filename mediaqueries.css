@@ -1,3 +1,8 @@
+/*
+Device Widths: http://screensiz.es/
+Different browsers: http://browserstack.com
+*/
+
 /* IE 10 + Viewport Fix */
 @ms-viewport { width: device-width; }
 @viewport { width: device-width; }
@@ -7,8 +12,14 @@
   .image-grid-square {
     width: 25%;
   }
+  .form-section {
+    width: 50%;
+  }
+  .message-section,
+  .submit-section {
+    width: 100%;
+  }
 }
-
 
 /* PHONE - 767px */
 @media screen and (max-width: 767px) {
@@ -41,8 +52,15 @@
     -o-columns: 1;
     -ms-columns 1;
   }
+  .form-section {
+    width: 100%;
+  }
+  .form-section .submit-button {
+    width: 90%;
+  }
 }
 
+/* SMALL SCREEN */
 @media screen and (max-width: 400px) {
 
   .image-grid-square {

@@ -5,13 +5,12 @@ body {
 a {
   text-decoration: none;
 }
-
 .footer {
   height: 200px;
   display: block;
 }
 
-/* WIDTH SETTING */
+/* WIDTH SETTINGS */
 
 .nav-container,
 .container,
@@ -23,10 +22,10 @@ a {
 }
 
 /* NAV BAR */
+
 .nav-bar {
   width: 100%;
   /*background: #222;*/
-  /*background: #667;*/
   background-image: url("iceland.jpg");
 }
 .nav-container {
@@ -68,7 +67,6 @@ a {
 .container h2 {
   margin-top: 35px;
 }
-
 .container p {
   line-height: 1.35em;
   .columns: 2;
@@ -119,7 +117,6 @@ a {
   font-size: 1em;
   line-height: 1.3em;
 }
-
 .form-section textarea {
   resize: none;
   height: 150px;

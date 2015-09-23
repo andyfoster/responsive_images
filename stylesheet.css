@@ -75,7 +75,6 @@ a {
   -o-columns: 2;
   -ms-columns 2;
 }
-
 /* IMAGE GRID */
 
 .image-grid,
@@ -83,7 +82,6 @@ a {
   overflow: hidden;
   padding: 5px;
 }
-
 .image-grid-square {
   width: 20%;
   float: left;

@@ -1,0 +1,42 @@
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  background: #f9f9f9;
+}
+a {
+  text-decoration: none;
+}
+
+/* WIDTH SETTING */
+
+.nav-container {
+  width: 95%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* nav bar */
+.nav-bar {
+  width: 100%;
+  background: #222;
+}
+.nav-container {
+  overflow: hidden;
+}
+.nav-logo {
+  float: left;
+  display: block;
+  padding: 20px 10px;
+  color: #f9f9f9;
+  font-weight: bold;
+}
+.nav-list {
+  float: right;
+}
+.nav-list li {
+  float: left;
+}
+.nav-list li a {
+  display: block;
+  padding: 20px 10px;
+  color: #f9f9f9;
+}

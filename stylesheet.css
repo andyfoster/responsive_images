@@ -6,9 +6,17 @@ a {
   text-decoration: none;
 }
 
+.footer {
+  height: 200px;
+  display: block;
+}
+
 /* WIDTH SETTING */
 
-.nav-container, .container, .image-grid {
+.nav-container,
+.container,
+.image-grid,
+.form-container {
   width: 95%;
   max-width: 1000px;
   margin: 0 auto;
@@ -72,7 +80,8 @@ a {
 
 /* IMAGE GRID */
 
-.image-grid {
+.image-grid,
+.form-container {
   overflow: hidden;
   padding: 5px;
 }
@@ -86,4 +95,45 @@ a {
 .image-grid-square img {
   width: 100%;
   float: left;
+}
+
+/* FORM CONTAINER */
+
+.form-section {
+  width: 25%;
+  float: left;
+  padding: 5px;
+}
+.message-section,
+.submit-section {
+  width: 100%;
+}
+.form-section label {
+  display: block;
+  margin-bottom: 2px;
+}
+.form-section input,
+.form-section textarea {
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 1em;
+  line-height: 1.3em;
+}
+
+.form-section textarea {
+  resize: none;
+  height: 150px;
+  padding: 10px;
+}
+.form-section input.submit-button {
+  float: none;
+  display: block;
+  border: none;
+  outline: none;
+  background: #111;
+  color: #f9f9f9;
+  padding: 15px;
+  cursor: pointer;
+  max-width: 500px;
+  margin: 0 auto;
 }
